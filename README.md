@@ -16,6 +16,16 @@ Pipeline: GitHub → Maven → Docker → Jenkins → Kubernetes (2 replicas)
 
 ```
 
+Got it — you want the **repository structure of your FIRST flow (Number Utility Service)**
+with the **same names used there**, in **clean text format**.
+
+Here it is 👇
+
+---
+
+## Repository Structure (Number Utility Service)
+
+```
 maven_app/
 │
 ├── pom.xml
@@ -34,8 +44,12 @@ maven_app/
         └── java/
             └── com/devops/
                 └── AppTest.java
+```
 
-````
+---
+
+
+
 
 ---
 
@@ -290,4 +304,26 @@ git push
 ```
 GitHub → Maven Build → JUnit Test → Docker Image → Jenkins → Kubernetes (2 Pods)
 ```
+
+## Notes (Important for Exam)
+
+* `App.java` → contains:
+
+  * Odd/Even
+  * Sum of digits
+  * Reverse number
+
+* `AppTest.java` → contains JUnit test cases
+
+* `pom.xml` → defines:
+
+  * project name (`number-service`)
+  * dependencies (JUnit)
+  * build config
+
+* `Dockerfile` → builds image using `.jar`
+
+* `Jenkinsfile` → automates pipeline
+
+* `k8s/deployment.yaml` → deploys **2 replicas**
 
