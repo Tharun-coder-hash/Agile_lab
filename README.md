@@ -298,7 +298,3 @@ GitHub → Maven Build → JUnit Test → Docker Image → Jenkins Pipeline → 
 * Use `bat` in Jenkins for Windows
 
 ---
-
-
-👉 I can compress this into **10-line answer (for 5 marks)**
-👉 Or give **diagram for drawing in exam**
