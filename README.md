@@ -25,8 +25,15 @@ maven_app/
 │   └── deployment.yaml
 │
 └── src/
-├── main/java/com/devops/App.java
-└── test/java/com/devops/AppTest.java
+    ├── main/
+    │   └── java/
+    │       └── com/devops/
+    │           └── App.java
+    │
+    └── test/
+        └── java/
+            └── com/devops/
+                └── AppTest.java
 
 ````
 
